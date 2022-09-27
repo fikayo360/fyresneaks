@@ -1,0 +1,140 @@
+export let users = [
+    {
+        id:1,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"admin"
+    },
+    {
+        id:2,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+
+    },
+    {
+        id:3,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:4,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"admin"
+    },
+    {
+        id:5,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:6,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:7,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:8,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:9,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+    {
+        id:10,
+        emailaddress:"johnnyk@gmail.com",
+        username:"johnk",
+        status:"regular"
+    },
+]
+
+export const products = [
+    {
+        id:1,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+    {
+        id:2,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+    {
+        id:3,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+    {
+        id:4,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+    {
+        id:5,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+    {
+        id:6,
+        img:"images/trainers.jpg",
+        title:"nike all stars",
+        price:300,
+    },
+]
+
+export const orders = [
+    {
+        id:1,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:2,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:3,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:4,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:5,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:6,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+    {
+        id:7,
+        userid:"o3o33jdkjz",
+        status:"pending",
+    },
+]
