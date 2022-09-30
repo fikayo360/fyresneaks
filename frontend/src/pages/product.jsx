@@ -19,7 +19,7 @@ width:100vw;
 padding:10px;
 @media (max-width: 768px) {
   flex-direction:column;
-  margin-bottom:20rem;
+  margin-bottom:40rem;
 }
 `
 const ImgContainer = styled.div`
@@ -27,6 +27,7 @@ width:55%;
 height:100%;
 @media (max-width: 768px) {
   width:100%;
+  margin-bottom:2rem
 }
 `
 const Img = styled.img`
@@ -42,20 +43,30 @@ margin-left:4em;
 width:35%;
 height:100%;
 @media (max-width: 768px) {
-  height:30%;
-  margin-top:10rem;
-  margin-left:0em;
+  height:80vh;
+  margin-left:1em;
   width: 80%;
-}
+  padding-top:5rem;
+  align-items:center
+};
+
 `
 const DesHeader = styled.h1`
 font-family: 'Russo One', sans-serif;
 font-size:2.5rem;
 color:black;
-margin-left:5rem
+margin-left:5rem;
+@media (max-width: 768px) {
+  font-size:1.8rem;
+  margin-bottom:2rem
+}
 `
 const Descriptionbodycont = styled.div`
 width:100%;
+@media (max-width: 768px) {
+  height:100vh;
+}
+
 `
 
 const DescriptionBody = styled.p`
@@ -72,9 +83,11 @@ display:flex;
 justify-content:center;
 margin-top:2em;
 @media (max-width: 768px) {
-  margin-left: 5em;
+  margin-left: 2em;
+  margin-bottom: 8rem;
 }
 `
+
 const DollarIcon = styled.img`
 width:50px;
 height:50px;
@@ -114,7 +127,7 @@ const BtnContainer = styled.div`
 margin-left:10rem;
 margin-top:1em;
 @media (max-width: 768px) {
-  margin-left:5rem;
+  margin-left: 2em;
 }
 `
 const QuantityContainer = styled.div`
@@ -126,8 +139,7 @@ width:60%;
 justify-content:space-between;
 align-items:center;
 @media (max-width: 768px) {
-  margin-left: 7em;
-    width: 60%;
+  margin-left: 2em;
 }
 `
 const Increment = styled.img`

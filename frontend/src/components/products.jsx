@@ -14,6 +14,8 @@ margin-top:3rem;
 margin-bottom:3rem;
 @media (max-width: 768px) {
   overflow:auto;
+  width:96%;
+  margin-bottom:5rem;
 }
 `
 

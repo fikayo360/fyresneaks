@@ -35,8 +35,13 @@ font-weight: bold;
 font-family: 'Roboto', sans-serif;
 color:#356683;
 @media (max-width: 768px) {
+  margin-left:2.3em;
+  margin-bottom:1.5rem;
+};
+@media (max-width: 350px) and (max-height:950px){
   margin-left:2em;
-}
+  margin-bottom:1rem;
+};
 `
 
 const Basetxt = styled.span`
@@ -47,18 +52,32 @@ font-weight: bold;
 font-family: 'Roboto', sans-serif;
 color:#356683;
 @media (max-width: 768px) {
-  margin-left:2em;
-}
+  margin-left:3rem;
+};
+@media (max-width: 350px) and (max-height:950px){
+  margin-left:2rem;
+  font-size:15px;
+  margin-top:1.4rem
+};
 `
 const Wrapper = styled.div`
   height:56%;
   width: 30%;
   border-radius:10px;
   background-color:#000000e3;
-  @media (max-width: 768px) {
-    width:70%;
-    height:53%;
-  }
+  @media (max-width: 768px) and (max-height:950px){
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:85%;
+    height:70%;
+  };
+  @media (max-width: 350px) and (max-height:950px){
+    width:85%;
+    height:90%;
+  };
+ 
 `;
 
 const Form = styled.form`
@@ -67,11 +86,14 @@ height:100%;
   display: flex;
   flex-direction: column;
   margin-left:5em;
-  @media (max-width: 768px) {
-    margin-left:2em;
+  @media (max-width: 768px) and (max-height:950px) {
+    margin-left:4.5em;
     height:70%;
     margin-bottom:1em;
-  }
+  };
+  @media (max-width: 350px) and (max-height:950px){
+    margin-right:2rem
+  };
 `;
 
 const Input = styled.input`

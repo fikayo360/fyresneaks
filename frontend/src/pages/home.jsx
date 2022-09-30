@@ -9,7 +9,6 @@ const Container = styled.div`
 padding:0;
 margin:10px;
 width: 100vw;
-height: 100vh;
 @media (max-width: 768px) {
   margin:0;
   padding:5px;

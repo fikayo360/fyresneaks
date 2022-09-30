@@ -54,8 +54,10 @@ color:#151736;
 font-family: 'Rubik Glitch', cursive;
 font-weight: bold;
 @media (max-width: 768px) {
-    font-size:1.4rem;
+    font-size:1.2rem;
+    width:90%
   }
+ 
 `
 
 const Navnum = styled.div`

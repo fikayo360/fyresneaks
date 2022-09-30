@@ -15,9 +15,9 @@ code {
 
 a{
   text-decoration: none;
+  color: rgb(9, 9, 10);
   font-weight: bold;
-  color:rgb(154, 43, 102);
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 input:focus{

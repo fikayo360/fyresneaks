@@ -36,15 +36,17 @@ font-weight:bold;
 margin-right:2rem;
 margin-botttom:1.5rem;
 @media (max-width: 768px) {
-  font-size:1.2rem
+  font-size:2rem
   }
 `
 const FooterMainBody = styled.p`
 font-size:1rem;
+font-weight:bold;
 margin-left:10px;
 width:70%;
 @media (max-width: 768px) {
   width:100%;
+  font-size:2rem;
   }
 `
 const SocialIconsCont = styled.div`
@@ -83,7 +85,7 @@ font-weight:bold;
 margin-top:1.4rem;
 margin-botttom:1.5em;
 @media (max-width: 768px) {
-  font-size:1.2rem
+  font-size:2rem
   }
 `
 const UsefulLinkBody = styled.ul`
@@ -94,7 +96,7 @@ align-items:center;
 flex-direction:column;
 margin-right:2em;
 @media (max-width: 768px) {
-  margin-right: 6em;
+  margin-right: 4em;
   margin-top: 2rem;
   }
 `
@@ -124,7 +126,7 @@ font-weight:bold;
 margin-left:5rem;
 margin-bottom:1rem;
 @media (max-width: 768px) {
-  font-size:1.2rem;
+  font-size:2rem;
   margin-left:0rem;
   }
 `
@@ -134,7 +136,8 @@ margin-bottom:9px;
 justify-content:center;
 align-items:center;
 margin-top:1rem;
-margin-right:6rem;
+margin-right:4rem;
+font-weight:bold;
 `
 const ContactIcon = styled.img`
 width:20px;
@@ -171,9 +174,7 @@ const Footer = () => {
           FYRE-SNEAKS
         </FooterMainHead>
         <FooterMainBody>
-        There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+         No 27 glourious hope oriokuta ikorodu Lagos 
         </FooterMainBody>
         <SocialIconsCont>
           <SocialIcons bg={'#050576'}>

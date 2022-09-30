@@ -8,18 +8,18 @@ width:100vw;
 height:50vw;
 @media (max-width: 768px) {
   height:100vh;
-  margin-bottom:30rem;
+  margin-bottom:75rem;
 }
 `
 const CategoryHeading = styled.h1`
 font-size : 2.7rem;
-font-wieght:bold;
+font-weight:bold;
 color:black;
 margin-bottom:3em;
 margin-left:2rem;
 font-family: 'Russo One', sans-serif;
 @media (max-width: 768px) {
-  margin-bottom:1rem;
+  margin-bottom:7rem;
 }
 `
 const CategoryContainer = styled.div`
@@ -33,7 +33,7 @@ text-align:center;
 @media (max-width: 768px) {
   flex-direction:column;
   justify-content:flex-start;
-  width:95%;
+  width:98%;
   height:100%;
 }
 `
@@ -42,8 +42,8 @@ width:32%;
 list-style:none;
 @media (max-width: 768px) {
   width:100%;
-  height:50%;
-  margin-bottom:2rem;
+  height:40%;
+  margin-bottom:15rem;
   }
 `
 const Category = styled.div`

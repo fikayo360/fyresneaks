@@ -34,6 +34,9 @@ const Title = styled.span`
   @media (max-width: 768px) {
     margin-left:1em;
     margin-bottom:20px;
+  };
+  @media (max-width: 768px) and (max-height:900px){
+    margin-left:1.7em;
   }
 `;
 
@@ -45,7 +48,19 @@ const Wrapper = styled.div`
   @media (max-width: 768px) {
     width:70%;
     height:70%;
-  }
+  };
+  @media (max-width: 400px) and (max-height:550px) {
+    height:90%;
+    width:80%;
+  };
+  @media (max-width: 400px) and (max-height:900px){
+    height:75%;
+    width:88%;
+  };
+  @media (max-width: 450px) and (max-height:900px){
+    height:70%;
+    width:85%;
+  };
 `;
 
 const Form = styled.form`
@@ -56,10 +71,21 @@ const Form = styled.form`
   width:100%;
   height:100%;
   @media (max-width: 768px) {
-    margin-left:2em;
+    margin-left:2.4em;
     height:90%;
     margin-bottom:1em;
     margin-top:4em;
+  };
+  @media (max-width: 400px) {
+    margin-left:2em;
+    height:80%;
+    margin-top:1em;
+  };
+  @media (max-width: 400px) and (max-height:900px){
+    margin-left:2.5em;
+  };
+  @media (max-width: 500px) and (max-height:900px){
+   
   }
 `;
 
